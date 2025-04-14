@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* It makes your page not to scroll vertically  */
+}
+button {
+    background: none;
+    border: none;
+}
+
+/* Landing page Styling Starts Here*/
+.landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/BackGround.jpeg");
+    background-size: cover;
+}
+/* Landing Page Styling ends Here*/
+
+
+/* Game page Styling Starts Here*/
+.gamePage{
+    background-image: url("./images/GamePgImg.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* First of all there is Score Card whose Styling Starts Here*/
+.scoreCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.playerTitileImg{
+    padding-right: 1%;
+}
+.enemyTitleImg{
+    padding-left: 2%;
+}
+#scoreDisplay {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 48px;
+    color: #fff;
+    padding: 20px;
+    background: linear-gradient(to right, #ffcc00, #ff9900);
+    border-radius: 70%;
+}
+/* Score Card Styling ends Here*/
+
+
+/* Secondly there is moveButtons div whose Styling Starts Here*/
+.moveButtons {
+    display: flex;
+    flex-direction: column;
+}
+.player_enemy_Buttons{
+    display: flex;
+    justify-content: space-around;
+}
+button img {
+    height: 200px;
+}
+.startButton:hover,.rockBtn:hover,.paperBtn:hover,.scissorBtn:hover{
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+.rockBtn:hover,.paperBtn:hover,.scissorBtn:hover{
+    filter: drop-shadow(0 10px 8px rgb(237, 19, 3));
+}   
+.titleImages {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+/* moveButtons div Styling ends Here*/
+
+/* Thirdly there is resultDisplay div whose Styling Starts Here*/
+.resultDisplay{
+    display: flex;
+    justify-content: center;
+}
+/*resultDisplay div Styling Starts Here*/
+
+/* CODE for */
+.onClickAnimation {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+    filter: drop-shadow(0 0 10px rgb(255, 0, 0));
+}
+
+
+
+
+
+
