@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body class="gamePage"> 
+    <div class="scoreCard">
+        <img class="playerTitleImg" src= "./images/player.png">    
+        <h1 id="scoreDisplay">0:0</h1>
+        <img class="enemyTitleImg" src="./images/computer.png">                  
+    </div>  
+    <div class="moveButtons">
+        <div class="player_enemy_Buttons">
+            <div class="playerButtons">
+                <button class="rockBtn"> 
+                    <img src="./images/rock.png">
+                </button>
+                <button class="paperBtn"> 
+                    <img src="./images/paper.png">
+                </button>
+                <button class="scissorBtn">
+                    <img src="./images/scissor.png">
+                </button>
+            </div>
+            <div class="enemyButtons">
+                <button class="rockBtn"> 
+                    <img src="./images/rock.png">
+                </button>
+                <button class="paperBtn"> 
+                    <img src="./images/paper.png">
+                </button>
+                <button class="scissorBtn">
+                    <img src="./images/scissor.png">
+                </button>
+            </div>
+        </div>  
+        <div class="titleImages">
+            <div>
+                <img src="./images/yourMove2.png">
+            </div>
+            <div>
+                <img src="./images/computerMove2.png">
+            </div>
+        </div> 
+    </div>
+    <div class="resultDisplay">
+        <img id="resultImage" src="./images/selectMove.png">
+    </div>              
+    <script src="gamePage.js"></script>
+</body>
+</html>
